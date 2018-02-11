@@ -1,0 +1,31 @@
+{
+  "name": "kryptoin-back",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "bitcoind-rpc": "^0.7.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.2",
+    "jsonrpc-node": "^1.2.93",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.13.6",
+    "morgan": "~1.9.0",
+    "node-bittrex-api": "^0.7.8",
+    "node-litecoin": "^1.0.1",
+    "openid-client": "^1.18.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.22.8",
+    "serve-favicon": "~2.4.5",
+    "serve-static": "^1.13.1",
+    "sqlite3": "^3.1.13",
+    "utils-merge": "^1.0.1",
+    "web3": "^1.0.0-beta.24"
+  }
+}
